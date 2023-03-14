@@ -9,11 +9,11 @@
     <Grid>
         <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="37" Margin="10,27,0,0" VerticalAlignment="Top" Width="138"/>
         <TextBox x:Name="txtCM" HorizontalAlignment="Left" Height="37" Margin="24,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtCM_KeyUp"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="37" Margin="180,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="37" Margin="331,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
-        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Height="37" Margin="24,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
-        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Height="37" Margin="180,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="37" Margin="331,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="37" Margin="180,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtM_KeyUp"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="37" Margin="331,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtKM_KeyUp"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Height="37" Margin="24,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtIn_KeyUp"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Height="37" Margin="180,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtFt_KeyUp"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="37" Margin="331,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtYard_KeyUp"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="37" Margin="24,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417"/>
         <Label Content="公分" HorizontalAlignment="Left" Height="25" Margin="24,94,0,0" VerticalAlignment="Top" Width="55"/>
         <Label Content="公尺" HorizontalAlignment="Left" Height="25" Margin="180,94,0,0" VerticalAlignment="Top" Width="55"/>
