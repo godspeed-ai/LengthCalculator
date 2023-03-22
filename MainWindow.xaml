@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="37" Margin="10,27,0,0" VerticalAlignment="Top" Width="138"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="37" Margin="10,27,0,0" VerticalAlignment="Top" Width="138" Click="btnAllClear_Click"/>
         <TextBox x:Name="txtCM" HorizontalAlignment="Left" Height="37" Margin="24,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtCM_KeyUp"/>
         <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="37" Margin="180,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtM_KeyUp"/>
         <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="37" Margin="331,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" KeyUp="txtKM_KeyUp"/>
